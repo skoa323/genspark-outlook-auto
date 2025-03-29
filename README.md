@@ -4,7 +4,9 @@
 这是一个用于批量登录Outlook账号并自动访问Genspark邀请链接的工具。该工具提供了图形界面(GUI)和命令行两种使用方式，可以同时处理多个Outlook账号，提高工作效率。
 
 
-将上述文件下载到一个文件夹里
+# 将下图中的文件下载到一个文件夹里
+![image](https://github.com/user-attachments/assets/4f45dc7c-3eca-493f-ba8a-4949555c12ea)
+
 ## 功能特点
 
 - 批量登录多个Outlook账号
@@ -46,20 +48,21 @@ another@outlook.com,anotherpassword456
 ### 图形界面(GUI)使用方法
 
 1. 运行GUI程序：
-
+# 直接在pycharm中run
+或
 ```bash
 python outlook_login_gui.py
 ```
-或直接在pycharm中run
+
 2. GUI界面说明：
 
 ![GUI界面](https://example.com/gui_screenshot.png)
 
 #### 界面各部分说明：
 
-- **Genspark邀请链接**：输入您的Genspark邀请链接，默认已提供一个链接
-- **最大并发数量**：设置同时处理的账号数量，建议根据电脑性能设置，默认为5
-- **Outlook账号**：输入账号信息，格式为`email,password`，每行一个账号
+- **Genspark邀请链接**：输入您的Genspark邀请链接，默认已提供一个链接（需被覆盖掉）
+- **最大并发数量**：设置同时处理的账号数量，建议根据电脑性能设置，建议为5
+- **Outlook账号**：粘贴账号信息，格式为`email,password`，每行一个账号
 - **从CSV导入**：点击此按钮从CSV文件导入账号
 - **状态**：显示当前程序运行状态
 - **运行日志**：显示程序运行的详细日志
