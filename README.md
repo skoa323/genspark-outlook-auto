@@ -12,7 +12,7 @@
 - 批量登录多个Outlook账号
 - 自动访问Genspark邀请链接
 - 支持并发处理多个账号
-- 提供图形界面和命令行两种使用方式
+- 提供图形界面和命令行两种使用方式（建议使用gui界面运行）
 - 详细的日志记录
 - CSV文件导入账号
 
@@ -54,9 +54,10 @@ another@outlook.com,anotherpassword456
 python outlook_login_gui.py
 ```
 
-2. GUI界面说明：
+2. GUI界面说明(建议将gui界面窗口放大到最大）：
 
-![GUI界面](https://example.com/gui_screenshot.png)
+![image](https://github.com/user-attachments/assets/e205b736-bc57-49cd-8a51-19759c39ad44)
+
 
 #### 界面各部分说明：
 
